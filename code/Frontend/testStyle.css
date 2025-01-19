@@ -1,0 +1,22 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#piano-roll {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(7, 50px);
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #000;
+}
+
+.note {
+  background-color: lightblue;
+  border: 1px solid #000;
+  cursor: pointer;
+}
